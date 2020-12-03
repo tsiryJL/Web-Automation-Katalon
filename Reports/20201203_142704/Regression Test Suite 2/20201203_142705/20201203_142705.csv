@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test Suite 2,Chrome 86.0.4240.198,,,2020-12-03 14:27:07,2020-12-03 14:28:01,"53,964s",PASSED
+,,,,,,,
+Test Cases/How to Handle Windows/Switch To Window Index,Chrome 86.0.4240.198,,,2020-12-03 14:27:11,2020-12-03 14:27:28,"17,146s",PASSED
+openBrowser(URL_WindowHandeling),Chrome 86.0.4240.198,Open browser and navigate to website ,,2020-12-03 14:27:11,2020-12-03 14:27:18,"7,358s",PASSED
+maximizeWindow(),Chrome 86.0.4240.198,Maximize the window,,2020-12-03 14:27:18,2020-12-03 14:27:20,"2,279s",PASSED
+"click(findTestObject(""Windows/Link_Click Here""))",Chrome 86.0.4240.198,Click on Click Here link,,2020-12-03 14:27:20,2020-12-03 14:27:21,"0,132s",PASSED
+switchToWindowIndex(1),Chrome 86.0.4240.198,Switch to New window by Switch to Window index method,,2020-12-03 14:27:21,2020-12-03 14:27:21,"0,024s",PASSED
+"Heading_NewWindow = getText(findTestObject(""Windows/Heading_New Window""))",Chrome 86.0.4240.198,Capturing the Heading of the New Window text and Storing it in a variable,,2020-12-03 14:27:21,2020-12-03 14:27:23,"2,108s",PASSED
+"verifyEqual(Heading_NewWindow, ""New Window"")",Chrome 86.0.4240.198,Validating the heading so that it is naviagted to desired window by Switch To Window Index Method,,2020-12-03 14:27:23,2020-12-03 14:27:23,"0,016s",PASSED
+,,,,,,,
+Test Cases/How to Handle Windows/Switch To Window Title,Chrome 86.0.4240.198,,,2020-12-03 14:27:28,2020-12-03 14:27:45,"17,064s",PASSED
+openBrowser(URL_WindowHandeling),Chrome 86.0.4240.198,Open browser and navigate to website ,,2020-12-03 14:27:28,2020-12-03 14:27:35,"7,392s",PASSED
+maximizeWindow(),Chrome 86.0.4240.198,Maximize the window,,2020-12-03 14:27:35,2020-12-03 14:27:37,"2,153s",PASSED
+"click(findTestObject(""Windows/Link_Click Here""))",Chrome 86.0.4240.198,Click on Click Here link,,2020-12-03 14:27:37,2020-12-03 14:27:38,"0,138s",PASSED
+"switchToWindowTitle(""New Window"")",Chrome 86.0.4240.198,Switch to New window by Switch to Window Title method,,2020-12-03 14:27:38,2020-12-03 14:27:40,"2,124s",PASSED
+"Heading_NewWindow = getText(findTestObject(""Windows/Heading_New Window""))",Chrome 86.0.4240.198,Capturing the Heading of the New Window text and Storing it in a variable,,2020-12-03 14:27:40,2020-12-03 14:27:40,"0,093s",PASSED
+"verifyEqual(Heading_NewWindow, ""New Window"")",Chrome 86.0.4240.198,Validating the heading so that it is naviagted to desired window by Switch To Window Title Method,,2020-12-03 14:27:40,2020-12-03 14:27:40,"0,002s",PASSED
+,,,,,,,
+Test Cases/How to Handle Windows/Switch To Window Url,Chrome 86.0.4240.198,,,2020-12-03 14:27:45,2020-12-03 14:28:01,"16,247s",PASSED
+openBrowser(URL_WindowHandeling),Chrome 86.0.4240.198,Open browser and navigate to website ,,2020-12-03 14:27:45,2020-12-03 14:27:51,"6,489s",PASSED
+maximizeWindow(),Chrome 86.0.4240.198,Maximize the window,,2020-12-03 14:27:51,2020-12-03 14:27:54,"2,170s",PASSED
+"click(findTestObject(""Windows/Link_Click Here""))",Chrome 86.0.4240.198,Click on Click Here link,,2020-12-03 14:27:54,2020-12-03 14:27:54,"0,168s",PASSED
+"switchToWindowUrl(""http://the-internet.herokuapp.com/windows/new"")",Chrome 86.0.4240.198,Switch to New window by Switch to Window URL method,,2020-12-03 14:27:54,2020-12-03 14:27:56,"2,150s",PASSED
+"Heading_NewWindow = getText(findTestObject(""Windows/Heading_New Window""))",Chrome 86.0.4240.198,Capturing the Heading of the New Window text and Storing it in a variable,,2020-12-03 14:27:56,2020-12-03 14:27:56,"0,088s",PASSED
+"verifyEqual(Heading_NewWindow, ""New Window"")",Chrome 86.0.4240.198,Validating the heading so that it is naviagted to desired window by Switch To Window Url Method,,2020-12-03 14:27:56,2020-12-03 14:27:56,"0,002s",PASSED
